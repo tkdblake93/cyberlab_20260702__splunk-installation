@@ -32,8 +32,6 @@ sudo systemctl start splunk
 sudo systemctl enable splunk
 ```
 
-[Insert Screenshot 1: Service Initialization / CLI Setup here]
-
 ## CLI Optimization via Shell Aliasing
 
 To avoid the inefficiency of typing out absolute file paths or constantly navigating to **/opt/splunk/bin/**, I sought a method to invoke the binary globally.
