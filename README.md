@@ -48,7 +48,7 @@ After reloading the shell configuration, this allows for seamless, direct manage
 
 ## Deployment Visuals
 
-![Web UI Login Screen](images/splunk_admin-dashboard.png)
+![Web UI Login Screen](images/splunk_browser-login-screen.png)
 
 ![Splunk Dashboard Interface](images/splunk_admin-dashboard.png)
 # cyberlab_20260702__splunk-installation
