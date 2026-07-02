@@ -34,9 +34,9 @@ sudo systemctl enable splunk
 
 ## CLI Optimization via Shell Aliasing
 
-To avoid the inefficiency of typing out absolute file paths or constantly navigating to **/opt/splunk/bin/**, I sought a method to invoke the binary globally.
+To avoid the inefficiency of typing out absolute file paths or constantly navigating to `/opt/splunk/bin/`, I sought a method to invoke the binary globally.
 
-Initially, creating a standard symbolic link (**ln -s**) encountered environment hurdles due to the specific permissions required by the splunk system user. The most robust and elegant solution was to map a custom alias inside the shell configuration file (**~/.bashrc**):
+Initially, creating a standard symbolic link (`ln -s`) encountered environment hurdles due to the specific permissions required by the splunk system user. The most robust and elegant solution was to map a custom alias inside the shell configuration file (`~/.bashrc`):
 
 ![.bashrc screenshot](images/splunk_alias-bashrc.png)
 
